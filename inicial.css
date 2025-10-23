@@ -1,0 +1,116 @@
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: aliceblue;
+            margin: 0;
+        }
+
+        .header {
+            background-color: rgb(0, 90, 20);
+            color: #FFF;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 40px;
+        }
+
+        .logo-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-title img {
+            height: 70px;
+            width: auto;
+        }
+
+        .logo-title h1 {
+            font-family: "Special Gothic", sans-serif;
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        nav.opcoes {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        nav.opcoes a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .card {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            padding: 90px;
+            text-align: center;
+            font-family: "Roboto Flex", sans-serif;
+        }
+
+        .card h1 {
+            color: rgb(0, 90, 20);
+        }
+
+        .texto-informativo {
+            max-width: 1570px;
+            margin: 0 auto 40px auto;
+            padding: 40px;
+            text-align: center;
+            font-family: "Roboto Flex", sans-serif;
+            color: #333;
+            line-height: 1.6;
+            font-size: 35px;
+        }
+
+        .blocos {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 80px;
+            flex-wrap: wrap;
+        }
+
+        .conteudo,
+        .conteudo2 {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 20px;
+            width: 400px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+            padding: 25px 20px;
+            font-family: "Roboto Flex", sans-serif;
+            text-decoration: none;
+            color: rgb(0, 90, 20);
+            transition: 0.3s;
+        }
+
+        .conteudo:hover,
+        .conteudo2:hover {
+            transform: scale(1.03);
+            box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .conteudo img,
+        .conteudo2 img {
+            height: 90px;
+            width: auto;
+        }
+
+        .conteudo h1,
+        .conteudo2 h1 {
+            font-size: 1.2rem;
+            text-align: left;
+            margin: 0;
+        }

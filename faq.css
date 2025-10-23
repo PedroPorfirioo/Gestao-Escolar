@@ -1,0 +1,127 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgb(0, 90, 20);
+    color: white;
+}
+
+nav.opcoes {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav.opcoes a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-title img {
+    height: 70px;
+    width: auto;
+}
+
+.logo-title h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.opcoes img {
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.opcoes img:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+h1 {
+    color: rgb(0, 90, 20);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+}
+
+.faq-item {
+    margin-bottom: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    background-color: #f5f5f5;
+    padding: 18px 20px;
+    font-weight: bold;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: rgb(0, 90, 20);
+    font-size: 1.2rem;
+}
+
+.faq-answer {
+    padding: 20px;
+    background-color: white;
+}
+
+.faq-answer p {
+    margin: 0 0 15px 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.faq-answer p:last-child {
+    margin-bottom: 0;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 90, 20);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
